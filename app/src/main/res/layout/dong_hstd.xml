@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textviewTieudeCustom"
+        android:textStyle="bold"
+        android:textColor="#C07B14"
+        android:textSize="26sp"
+        android:text="Tiêu đề"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_below="@+id/textviewTieudeCustom"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textviewDiemDiCustom"
+        android:textStyle="bold"
+        android:textColor="#0d00ff"
+        android:textSize="24sp"
+        android:text="Điểm Đi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textviewDiadiemCustom"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textviewDiemDiCustom"
+        android:textColor="#ff00"
+        android:textSize="20dp"
+        android:text="Điểm Đến"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonUngtuyen"
+        android:textColor="#0B8D11"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:text="xem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
